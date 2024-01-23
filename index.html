@@ -33,26 +33,85 @@
 
 <body>
 
-    <header>
+    <header class="container mx-auto mt-10">
         <!-- banner section -->
-        <section class="container mx-auto">
-            <div class="bg-slate-600 w-ful h-36">
-
-            </div>
+        <section >
+            <div class="carousel w-full h-auto">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="images/1.png" class="w-full" />
+                  <div class="absolute flex justify-start space-x-4 transform -translate-y-1/2 lg:left-5 left-[37%]  lg:right-5 top-[90%]">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img  src="images/hockey -280.jpg" class="w-full rounded-xl" />
+                  <div class="absolute flex justify-start  space-x-4 transform -translate-y-1/2 lg:left-5 left-[37%]  lg:right-5 top-[90%]">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="images/hock280.jpg" class="w-full rounded-xl" />
+                  <div class="absolute flex justify-start space-x-4 transform -translate-y-1/2 lg:left-5 left-[37%]  lg:right-5 top-[90%]">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+              </div>
         </section>
 
     </header>
 
-    <main>
-        <section class="container mx-auto">
-            <div class="bg-slate-600 w-ful h-36">
+    <main class="container mx-auto mt-32">
+        <!-- progress section added-->
+        <section>
+            <div class="items-center px-11">
+                <h1 class="text-4xl font-extrabold mb-6 text-center">Professional Hockeys Club</h1>
+                <p class="text-[#13131899]  text-center mb-12 lg:mb-20">Our Professional Hockey Club stands as a beacon of excellence, <br> embodying the spirit of competition and camaraderie that defines the sport.</p>
+            </div>
 
+            <div class="flex flex-col px-16 lg:flex-row justify-center items-center text-center space-y-8 lg:space-x-8">
+                <div >
+                    <div class="radial-progress text-[#FF4240] mb-6 rotate-90" style="--value:87;"  role="progressbar">
+                        <h4 class="text-black -rotate-90 font-extrabold">87%</h4>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Prayer Facility</h3>
+                    <p>Sacred space fostering unity, prayer, and reflection for all.</p>
+                </div>
+                <div >
+                    <div class="radial-progress text-[#49D293] mb-6 rotate-90" style="--value:95;"  role="progressbar">
+                        <h4 class="text-black -rotate-90 font-extrabold">95%</h4>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Experienced Coach</h3>
+                    <p>Skilled mentor shaping champions with expertise and dedication.</p>
+                </div>
+                <div >
+                    <div class="radial-progress text-[#FFB546] rotate-90  mb-6" style="--value:90;"  role="progressbar">
+                        <h4 class="text-black -rotate-90 font-extrabold">90%</h4>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Senior Player</h3>
+                    <p>Veteran athlete excelling with wisdom, skill, and leadership.</p>
+                </div>
+                <div >
+                    <div class="radial-progress text-[#4C8DF1] rotate-90 mb-6" style="--value:80;"  role="progressbar">
+                        <h4 class="text-black -rotate-90 font-extrabold">80%</h4>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Training Ground</h3>
+                    <p class="font-normal">Elite arena cultivating champions through dedication and excellence.</p>
+                </div>
             </div>
         </section>
 
     </main>
 
     <footer>
+        <section >
+            <div class="bg-slate-600 w-ful h-36">
+
+            </div>
+        </section>
+
 
     </footer>
 
